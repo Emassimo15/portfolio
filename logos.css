@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Saira+Extra+Condensed:wght@400;500;700&display=swap');
+ul#cursos {
+    width: 1000px;
+    height: 640px;
+    margin: 0px;
+    padding: 50px;
+    overflow: hidden;
+    list-style: none; 
+    color: rgba(0,0 , 0, 1);
+}
+
+ul#cursos li{
+    font-family: 'Saíra Extra Condensed', sans-serif bold;
+    float: left;
+    width: 400px;
+    height: 260px;
+    margin-right:50px ;
+    border: 5px solid #ffffff;
+    background-color: #d3d3d3;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.4);
+    color:  rgba(0,0 , 0, 0.5);
+}
+
+ul#cursos li:hover{
+    transform: scale(1.2);
+    transition: all 0.4s ease-in;
+    background: url('../cssp/logoc.png') no-repeat;
+}
+
+ul#cursos li p{
+    font-size: 12pt;    
+    color:#132743;
+    opacity: 0;
+    margin-top: 6px;
+}
+
+
+
+ul#cursos li iframe#frht{
+margin-top: 35px;
+}
+
+ul#cursos li iframe#frlc{
+    margin-top: 60px;
+}
+
+ul#cursos li iframe#frjs{
+    margin-top: 20px; 
+}
+
+ul#cursos li:hover p{
+    opacity: 1;
+    transition: all 0.4s ease-in;
+}
+
+ul#cursos li#lgc{
+    background: url('../cssp/logolgc.png') no-repeat;
+    background-position: 97% 97%;
+    background-size: 50px 50px;
+}
+
+
+
+ul#cursos li#html{
+    background: url('../cssp/logoh.png') no-repeat;
+    background-position: 97% 97%;
+    background-size: 50px 50px;
+}
+
+ul#cursos li#css{
+    background: url('../cssp/logoc.png') no-repeat;
+    background-position: 97% 97%;
+    background-size: 50px 50px;
+}
+
+
+ul#cursos li#js{
+    background: url('../cssp/logojs.png') no-repeat;
+    background-position: 97% 97%;
+    background-size: 50px 50px;
+}
